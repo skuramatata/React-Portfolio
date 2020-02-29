@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Patick Duquette",
-    "description": "I am a Junior web developer with many years of technical troubleshooting and customer service experience; passionate about building tools that use technology to solve daily problems",
+    "description": "I am a full stack web developer with many years of technical troubleshooting and customer service experience; passionate about building tools that use technology to solve daily problems",
     "image": "Memoji.png",
-    "bio": "I am enrolled in the UT Coding Bootcamp and will be looking for employment in the Austin area after graduation. I would like to start in web developmemnt and eventually explore machine learning and data science. My current programming goals are to get more comfortable with Javascript, learn more about MySQL and Tableau, and to gain some basic understanding of Python. I am fascinated by the technologies that make our modern world work",
+    "bio": "I am enrolled in the UT Coding Bootcamp and will be looking for employment in the Austin area after graduation. I would like to start in web developmemnt and eventually explore machine learning and data science. My current programming goals are to get more comfortable with Javascript, learn more about MySQL and Tableau, and to gain some basic understanding of Python. I am fascinated by the technologies that make our modern world work.",
     "contactmessage": "Send me an email. Let's get in touch.",
     "email": "Patrick@PatrickDuquette.com",
     "phone": "512-660-4205",
@@ -31,8 +31,32 @@
     ]
   },
   "resume": {
-    "skillmessage": "Exposure to MySQL, Python, Tableau, Javascript, Node.js, HTML, CSS, jQuery, Responsive design, Bootstrap, React.js, MySql, MongoDB, Heroku.",
+    "skillmessage": "HTML, CSS, Bootstrap, Git, Responsive design, Node.js, Web API's, MySQL, Express, Javascript, Node.js, jQuery, React.js, MongoDB, Heroku",
     "education": [
+      {
+        "school": "Univeristy of Texas - Trilogy Education",
+        "degree": "Full Stack Web Development",
+        "graduated": "2020",
+        "description": "Coding Bootcamp Certification"
+      },
+      {
+        "school": "Project Management Institute",
+        "degree": "Certified Associate of Project Management",
+        "graduated": "2020",
+        "description": "Project Management Certification"
+      },
+      {
+        "school": "Austin Community College",
+        "degree": "IT Project Management",
+        "graduated": "2017",
+        "description": "PMP/CAPM Continuing Ed Certification"
+      },
+      {
+        "school": "Apple",
+        "degree": "Business Integration",
+        "graduated": "2017",
+        "description": "Apple Certification"
+      },
       {
         "school": "Ashford University",
         "degree": "MBA",
