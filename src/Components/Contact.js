@@ -55,14 +55,15 @@ class Contact extends Component {
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                           <textarea cols="20" rows="2" id="contactMessage" name="contactMessage"></textarea>
+                          
                         </div>
-
+                        <label htmlFor="contactMessage"><span className="required"></span></label>
+                        <input  type="submit" value="Send Message" className="formButtonsNew"/>
+                        <label htmlFor="contactMessage"><span className="required"></span></label>
+                        <input type="reset" value="Clear Form" className="alt formButtonsNew" />
                         <div>
-                           <button className="submit">Submit</button>
-                           <span id="image-loader">
-                              <img alt="" src="images/loader.gif" />
-                           </span>
+								
                         </div>
                      </fieldset>
                   </form>
@@ -72,36 +73,36 @@ class Contact extends Component {
                      <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                   </div>
                </div>
-
-
                <aside className="four columns footer-widgets">
-                  <div className="widget widget_contact">
+               <div className="widget widget_contact">
 
-                     <h4>Address and Phone</h4>
-                     <p className="address">
-                        {name}<br />
-                        {street} <br />
-                        {city}, {state} {zip}<br />
-                        <span>{phone}</span>
-                     </p>
-                  </div>
+                  <h4>Address and Phone</h4>
+                  <p className="address">
+                     {name}<br />
+                     {street} <br />
+                     {city}, {state} {zip}<br />
+                     <span>{phone}</span>
+                  </p>
+               </div>
 
-                  <div className="widget widget_tweets">
-                     <h4 className="widget-title">Favorite Quote</h4>
-                     <ul id="twitter">
-                        <li>
-                           
-                        </li>
-                        <li>
-                           <span>
-                           “It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.”
+               <div className="widget widget_tweets">
+                  <h4 className="widget-title">Favorite Quote</h4>
+                  <ul id="twitter">
+                     <li>
                         
-                           </span>
-                           <b>Theodore Roosevelt</b>
-                        </li>
-                     </ul>
-                  </div>
-               </aside>
+                     </li>
+                     <li>
+                        <span>
+                        “Get busy livin, or get busy dyin.”
+                     
+                        </span>
+                        <b>Andy Dufrense, Shawshank Redemption</b>
+                     </li>
+                  </ul>
+               </div>
+            </aside>
+
+              
             </div>
          </section>
       );
