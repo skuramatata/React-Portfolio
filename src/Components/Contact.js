@@ -10,7 +10,6 @@ class Contact extends Component {
          var state = this.props.data.address.state;
          var zip = this.props.data.address.zip;
          var phone = this.props.data.phone;
-         var email = this.props.data.email;
          var message = this.props.data.contactmessage;
       }
 
@@ -36,7 +35,7 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form action="" method="post" id="contactForm" name="contactForm">
+                  <form action="https://formspree.io/xknrqega" method="post" id="contactForm" name="contactForm">
                      <fieldset>
 
                         <div>
@@ -68,7 +67,7 @@ class Contact extends Component {
                      </fieldset>
                   </form>
 
-                  <div id="message-warning"> Error boy</div>
+                  <div id="message-warning"> Error</div>
                   <div id="message-success">
                      <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                   </div>
@@ -91,18 +90,14 @@ class Contact extends Component {
                      <h4 className="widget-title">Favorite Quote</h4>
                      <ul id="twitter">
                         <li>
-                           <span>
-                              "Get Busy livin, or get busy dyin."
-                        
-                           </span>
-                           <b><a href="#">Andy Dufrense, Shawshank Redemption</a></b>
+                           
                         </li>
                         <li>
                            <span>
                            “It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.”
                         
                            </span>
-                           <b><a href="#">Theodore Roosevelt</a></b>
+                           <b>Theodore Roosevelt</b>
                         </li>
                      </ul>
                   </div>
