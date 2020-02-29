@@ -879,6 +879,10 @@ call-to-action .button {
 	color: #0762f9;
 	font-size: 13px;
 }
+.formButtonsNew {
+   text-align: center;
+   width: 350px;
+}
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
