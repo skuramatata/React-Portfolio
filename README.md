@@ -3,6 +3,9 @@
 ## Description
 This is a deployed link to my professional portfolio built using React. 
 
+## Problem
+As a full stack web developer I wanted to get some practice developing websites with react. 
+
 ## Deployed link
 https://duquetteman.github.io/React-Portfolio/
 
